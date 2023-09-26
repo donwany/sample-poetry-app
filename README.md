@@ -50,4 +50,6 @@ poetry export -f requirements.txt --output requirements.txt
 ### Show environment
 ```sh
 poetry env info
+
+poetry update
 ```

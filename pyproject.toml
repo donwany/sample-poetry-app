@@ -7,6 +7,12 @@ readme = "README.md"
 repository = "https://github.com/donwany/sample-poetry-app"
 authors = ["donwany <user.aerogramme@gmail.com>"]
 # packages = [{include = "poetry-demo"}, {include = "src/greet"}]
+keywords = ["packaging", "poetry"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+documentation = "https://python-poetry.org/docs/"
 
 [tool.poetry.dependencies]
 python = "^3.10"
