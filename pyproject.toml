@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "poetry-demo"
 version = "0.1.0"
-description = ""
+description = "sample poetry app"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/donwany/sample-poetry-app"
 authors = ["donwany <user.aerogramme@gmail.com>"]
+packages = [{include = "poetry-demo"}, {include = "src/greet"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
