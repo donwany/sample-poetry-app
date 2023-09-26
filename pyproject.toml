@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "poetry-demo"
+version = "0.1.0"
+description = ""
+authors = ["donwany <user.aerogramme@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pendulum = "^2.1.2"
+ghananews-scraper = "^1.0.25"
+arrow = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ghananews = "poetry_demo.demo:main"
+greet = "src.greet.location:cli"
